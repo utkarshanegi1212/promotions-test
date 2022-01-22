@@ -64,7 +64,7 @@ You need to reply to email within 48 hours.
 - **Rest Assured** - for testing the REST Api
 - **TestNG** - for test automation framework
 - **Maven** - for POM.xml and to add dependencies
-- **BDD** - to use given(),when(), then() method to write down test cases in a structured way.
+- **BDD Approach** - to use given(),when(), then() method to write down test cases in a structured way.
 
 ## <a id="maven-dependencies" style="color: black;">Maven dependencies</a>
 
@@ -81,3 +81,10 @@ You need to reply to email within 48 hours.
 - To validate the API response by passing Invalid API key
 
 ## <a id="whats-not-included" style="color: black;">How to execute the test project in Eclipse</a>
+
+- Import the project in eclipse
+- Make sure your JDK version is 1.8.0
+- Go to the test file
+  `promotions-test/src/test/java/RestAssured_PromotionsAPI/Promotions_Validation.java`
+- Click on run project or right click on the file and run as > testng test
+- It will generate test reports inside test-output folder
